@@ -7,6 +7,14 @@ on:
       - 'composer.json'
       - 'rector.php'
 
+  push:
+    paths:
+      - 'src/**'
+      - 'config/**'
+      - '.github/workflows/rector.yml'
+      - 'composer.json'
+      - 'rector.php'
+
 name: rector
 
 jobs:
